@@ -6,8 +6,8 @@ header{
     border-bottom: 1px solid rgba(239, 239, 239, 1);
     display: flex;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     box-sizing: border-box;
 }
 header > *{
@@ -25,9 +25,9 @@ header > *{
     justify-content: space-around;
 }
 .nav_1 > span{
-    font-family: 'DM Sans';
+    font-family: 'Russo One', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.04em;
 }
@@ -51,18 +51,19 @@ header > *{
     background: #3D00B7;
     border-radius: 60px;
     color: white;
-    font-family: 'DM Sans';
+    font-family: 'Russo One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.04em;
+    border: none;
 }
 .connect{
     width: 156px;
     border: 2px solid #3D00B7;
     border-radius: 60px;
     height: 50px;
-    font-family: 'DM Sans';
+    font-family: 'Russo One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -70,42 +71,49 @@ header > *{
     color: rgba(61, 0, 183, 1);
 }
 .actions{
-    justify-content: space-between;
-    width: 40%;
-    margin-left: 20%;
+    justify-content: space-around;
+    width: 55%;
+    margin-left: 5%;
 }
-main{
+.block_1{
+    box-sizing: border-box;
+    height: 520px;
     padding-top: 70px;
-    padding-left: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
 }
 .box_left{
     width: 55%;
-    height: 620px;
-
     box-sizing: border-box;
 }
 .title{
-    font-family: 'Integral CF';
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.05em;
+    margin: 0 0 15px;
 }
 .box_left > P{
     width: 471px;
-    font-family: 'DM Sans';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
     color: #565656;
+    margin: 15px 0;
 }
 .explore{
     width: 209px;
     height: 65px;
     background: #3D00B7;
     border-radius: 60px;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -114,16 +122,18 @@ main{
     color: #FFFFFF;
     margin-top: 15px;
     margin-bottom: 30px;
+    border: none;
 }
 .nK{
     width: 400px;
+    height: 68px;
     display: flex;
     justify-content: space-between;
 }
 .p_K{
-    font-family: 'Integral CF';
+    font-family: 'Russo One', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
     line-height: 44px;
     letter-spacing: 0.05em;
@@ -131,10 +141,72 @@ main{
     margin: 0;
 }
 .p_A{
-    font-family: 'DM Sans';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     color: #565656;
     margin: 0;
 }
+.dot{
+    position: relative;
+    top: -160px;
+    left: -55px;
+    z-index: -1;
+}
+
+.block_2{
+    height: 326px;
+    background: rgba(217, 224, 236, 0.2);
+    box-sizing: border-box;
+    padding: 0 15%;
+}
+.block_2 > div{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2_1{
+    width: 398px;
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+}
+.b2box{
+    height: 112px;
+}
+.b2box > h3{
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: left;
+    position: relative;
+    margin-bottom: 12px;
+}
+.b2box > p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 160%;
+    color: #696969;
+    margin: 0;
+}
+.h3_1::before{
+    content: url(../image/card-tick.png);
+    position: absolute;
+    left: -50px;
+    top: -5px;
+}
+.h3_2::before{
+    content: url(../image/chart-square\ 2.png);
+    position: absolute;
+    left: -50px;
+    top: -5px;
+}
+
+
